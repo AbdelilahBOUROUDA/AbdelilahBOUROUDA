@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/Abdelilahbourouda.github.io/', // Must match your repo name exactly
+  base: '/AbdelilahBOUROUDA.github.io', // Must match your repo name exactly
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
