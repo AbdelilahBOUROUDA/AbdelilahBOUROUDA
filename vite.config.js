@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/AbdelilahBOUROUDA/',  // Your GitHub repo name as base path
+  base: '/AbdelilahBOUROUDA/',  // MY GitHub repo name as base path
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
