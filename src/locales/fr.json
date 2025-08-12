@@ -1,0 +1,230 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "certifications": "Certifications",
+    "timeline": "Parcours",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "home": {
+    "title": "Abdelilah BOUROUDA",
+    "subtitle": "Je conçois, sécurise et gère l'infrastructure numérique dans des environnements physiques et virtuels.",
+    "viewProjects": "Voir les Projets",
+    "contactMe": "Me Contacter"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "bio": "Spécialiste passionné en infrastructure numérique avec une expertise dans la construction, la sécurisation et la gestion d'environnements IT complexes. Je me spécialise dans la virtualisation, les réseaux et l'administration système sur les plateformes Windows et Linux. Mon expérience s'étend de l'infrastructure traditionnelle sur site aux solutions cloud modernes, en me concentrant toujours sur l'optimisation de la sécurité, de la fiabilité et des performances.",
+    "vision": "Ma vision est de combler le fossé entre l'infrastructure traditionnelle et les technologies cloud modernes, en créant des environnements numériques robustes, évolutifs et sécurisés qui permettent aux entreprises de prospérer à l'ère numérique.",
+    "downloadCV": "Télécharger CV",
+    "languages": "Langues",
+    "languagesList": {
+      "english": "Anglais - Courant",
+      "french": "Français - Natif"
+    }
+  },
+  "skills": {
+    "title": "Compétences Techniques",
+    "categories": {
+      "infrastructure": {
+        "title": "Infrastructure & Systèmes",
+        "skills": [
+          "Windows Server (2016, 2019, 2022)",
+          "Linux (Ubuntu, Debian, CentOS)",
+          "Active Directory & Stratégies de Groupe",
+          "Gestion DNS & DHCP",
+          "VMware ESXi & vSphere",
+          "Proxmox VE",
+          "Microsoft Hyper-V"
+        ]
+      },
+      "networking": {
+        "title": "Réseaux",
+        "skills": [
+          "Cisco Packet Tracer",
+          "VLANs & Sous-réseaux",
+          "Routage & Commutation",
+          "NAT & Redirection de Ports",
+          "Configuration Pare-feu",
+          "Suite de Protocoles TCP/IP",
+          "Configuration & Gestion VPN"
+        ]
+      },
+      "monitoring": {
+        "title": "Surveillance & Sécurité",
+        "skills": [
+          "Surveillance Zabbix",
+          "Nagios Core",
+          "Audit de Sécurité Réseau",
+          "Durcissement Pare-feu",
+          "Analyse Wireshark",
+          "Évaluation des Vulnérabilités",
+          "Sauvegarde & Récupération"
+        ]
+      },
+      "cloud": {
+        "title": "Cloud & Automatisation",
+        "skills": [
+          "Fondamentaux AWS",
+          "Bases Microsoft Azure",
+          "Scripts PowerShell",
+          "Scripts Bash",
+          "Contrôle de Version Git",
+          "Conteneurs Docker",
+          "Infrastructure as Code"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets Phares",
+    "items": {
+      "hybridLab": {
+        "title": "Laboratoire Réseau Hybride",
+        "description": "Conception et implémentation d'un laboratoire réseau hybride complet combinant infrastructure physique et virtuelle. Comprend plusieurs VLANs, routage inter-VLAN et accès distant sécurisé via VPN.",
+        "tools": ["VMware ESXi", "pfSense", "Windows Server", "Ubuntu Server"]
+      },
+      "proxmoxCluster": {
+        "title": "Configuration Cluster Proxmox",
+        "description": "Construction d'un cluster Proxmox haute disponibilité avec stockage partagé, capacités de migration en direct et solutions de sauvegarde automatisées. Implémentation de surveillance et d'alertes pour maintenance proactive.",
+        "tools": ["Proxmox VE", "Stockage Ceph", "Zabbix", "Ansible"]
+      },
+      "monitoringDashboard": {
+        "title": "Tableau de Bord de Surveillance Infrastructure",
+        "description": "Développement d'une solution de surveillance complète utilisant Zabbix avec tableaux de bord personnalisés, alertes automatisées et analyses de performance pour les composants d'infrastructure critiques.",
+        "tools": ["Zabbix", "Grafana", "MySQL", "SNMP"]
+      },
+      "securityAudit": {
+        "title": "Audit de Sécurité Réseau",
+        "description": "Réalisation d'une évaluation de sécurité approfondie de l'infrastructure réseau d'entreprise, identification des vulnérabilités et implémentation de mesures de durcissement pour améliorer la posture de sécurité globale.",
+        "tools": ["Nmap", "Wireshark", "OpenVAS", "Nessus"]
+      }
+    },
+    "viewProject": "Voir le Projet",
+    "liveDemo": "Démo en Direct",
+    "sourceCode": "Code Source"
+  },
+  "certifications": {
+    "title": "Certifications & Formation",
+    "items": {
+      "ccnaIntro": {
+        "name": "CCNA: Introduction aux Réseaux",
+        "date": "Juillet 2025",
+        "description": "J'ai acquis les bases des réseaux informatiques, notamment les modèles OSI et TCP/IP, l'adressage IPv4 et IPv6, la conception de topologies réseau, ainsi que l'utilisation des équipements réseau comme les routeurs et les switches."
+      },
+      "ccnaSwitching": {
+        "name": "CCNA: Commutation, Routage et Essentiels Sans Fil",
+        "date": "Juillet 2025",
+        "description": "Cette certification m'a permis de comprendre en profondeur les technologies de commutation (switching), de routage statique et dynamique, ainsi que les réseaux sans fil (Wi-Fi). J'ai appris à configurer des VLANs, STP, DHCP, NAT, et à sécuriser l'accès réseau."
+      },
+      "ccnaEnterprise": {
+        "name": "CCNA: Réseaux d'Entreprise, Sécurité et Automatisation",
+        "date": "Juin 2025",
+        "description": "J'ai développé des compétences avancées en sécurité réseau (ACL, VPN, sécurité du périphérique), en administration de réseaux d'entreprise, et en automatisation réseau via Python et les API REST."
+      },
+      "ethicalHacker": {
+        "name": "Ethical Hacker",
+        "date": "Juin 2025",
+        "description": "Cette formation m'a introduit aux techniques de test de pénétration, à l'analyse des vulnérabilités, à la reconnaissance d'un système cible, à l'exploitation d'un réseau, et aux principes fondamentaux de la cybersécurité offensive."
+      },
+      "networkingBasics": {
+        "name": "Bases du Réseau",
+        "date": "Juin 2025",
+        "description": "J'ai acquis une compréhension générale des réseaux : protocoles réseau, dispositifs, adresse IP, DNS, commutateurs, routeurs et transmission de données. Une excellente introduction avant le programme CCNA."
+      },
+      "pythonEssentials": {
+        "name": "Python Essentiels 1",
+        "date": "Juin 2025",
+        "description": "J'ai appris les bases de la programmation en Python : variables, conditions, boucles, fonctions, structures de données (listes, dictionnaires) et notions d'algorithmique. Cette base me permet d'automatiser des tâches IT."
+      },
+      "computerHardware": {
+        "name": "Bases du Matériel Informatique",
+        "date": "Mai 2025",
+        "description": "Formation sur les composants internes des ordinateurs : carte mère, processeur, RAM, disque dur, alimentation, ainsi que les périphériques. J'ai aussi vu le montage, la maintenance et le dépannage matériel."
+      },
+      "cybersecurityIntro": {
+        "name": "Introduction à la Cybersécurité",
+        "date": "Mai 2025",
+        "description": "J'ai découvert les menaces actuelles sur les systèmes informatiques, les principes de la cybersécurité, les politiques de sécurité, les bonnes pratiques de mot de passe, ainsi que les enjeux pour les entreprises et particuliers."
+      },
+      "aiIntro": {
+        "name": "Introduction à l'IA Moderne",
+        "date": "Mai 2025",
+        "description": "Cette certification m'a introduit aux concepts clés de l'IA : apprentissage automatique, traitement du langage naturel, vision par ordinateur, éthique de l'IA, et les usages modernes de l'intelligence artificielle dans les entreprises."
+      }
+    }
+  },
+  "timeline": {
+    "title": "Parcours Professionnel",
+    "items": {
+      "2024": {
+        "title": "Spécialiste Infrastructure",
+        "description": "Rôle avancé axé sur la conception et l'implémentation d'infrastructure d'entreprise"
+      },
+      "2023": {
+        "title": "Administrateur Système",
+        "description": "Gestion des serveurs Windows et Linux, implémentation de solutions de surveillance"
+      },
+      "2022": {
+        "title": "Technicien Réseau",
+        "description": "Configuration d'équipements réseau, dépannage des problèmes de connectivité"
+      },
+      "2021": {
+        "title": "Spécialiste Support IT",
+        "description": "Support technique et maintenance de l'infrastructure IT"
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog Technique",
+    "subtitle": "Partage de connaissances et d'insights sur l'infrastructure numérique",
+    "comingSoon": "Articles de blog à venir...",
+    "topics": [
+      "Modèles de Conception d'Infrastructure",
+      "Meilleures Pratiques de Virtualisation",
+      "Fondamentaux de Sécurité Réseau",
+      "Stratégies de Surveillance et d'Alerte"
+    ]
+  },
+  "contact": {
+    "title": "Prenons Contact",
+    "subtitle": "Discutons de vos besoins en infrastructure",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "error": "Échec de l'envoi du message. Veuillez réessayer."
+    },
+    "info": {
+      "email": "Email",
+      "location": "Localisation",
+      "availability": "Disponibilité"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Portfolio Infrastructure Numérique. Tous droits réservés.",
+    "builtWith": "Construit avec React & Tailwind CSS"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "download": "Télécharger"
+  }
+}
+
+

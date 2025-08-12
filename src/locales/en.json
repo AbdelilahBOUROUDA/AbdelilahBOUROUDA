@@ -1,0 +1,230 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "timeline": "Timeline",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "home": {
+    "title": "Abdelilah BOUROUDA",
+    "subtitle": "I build, secure, and manage digital infrastructure across physical and virtual environments.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "Passionate digital infrastructure specialist with expertise in building, securing, and managing complex IT environments. I specialize in virtualization, networking, and system administration across Windows and Linux platforms. My experience spans from traditional on-premises infrastructure to modern cloud solutions, always focusing on security, reliability, and performance optimization.",
+    "vision": "My vision is to bridge the gap between traditional infrastructure and modern cloud technologies, creating robust, scalable, and secure digital environments that enable businesses to thrive in the digital age.",
+    "downloadCV": "Download CV",
+    "languages": "Languages",
+    "languagesList": {
+      "english": "English - Fluent",
+      "french": "French - Native"
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "categories": {
+      "infrastructure": {
+        "title": "Infrastructure & Systems",
+        "skills": [
+          "Windows Server (2016, 2019, 2022)",
+          "Linux (Ubuntu, Debian, CentOS)",
+          "Active Directory & Group Policy",
+          "DNS & DHCP Management",
+          "VMware ESXi & vSphere",
+          "Proxmox VE",
+          "Microsoft Hyper-V"
+        ]
+      },
+      "networking": {
+        "title": "Networking",
+        "skills": [
+          "Cisco Packet Tracer",
+          "VLANs & Subnetting",
+          "Routing & Switching",
+          "NAT & Port Forwarding",
+          "Firewall Configuration",
+          "TCP/IP Protocol Suite",
+          "VPN Setup & Management"
+        ]
+      },
+      "monitoring": {
+        "title": "Monitoring & Security",
+        "skills": [
+          "Zabbix Monitoring",
+          "Nagios Core",
+          "Network Security Auditing",
+          "Firewall Hardening",
+          "Wireshark Analysis",
+          "Vulnerability Assessment",
+          "Backup & Recovery"
+        ]
+      },
+      "cloud": {
+        "title": "Cloud & Automation",
+        "skills": [
+          "AWS Fundamentals",
+          "Microsoft Azure Basics",
+          "PowerShell Scripting",
+          "Bash Scripting",
+          "Git Version Control",
+          "Docker Containers",
+          "Infrastructure as Code"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": {
+      "hybridLab": {
+        "title": "Hybrid Network Lab",
+        "description": "Designed and implemented a comprehensive hybrid network laboratory combining physical and virtual infrastructure. Features multiple VLANs, inter-VLAN routing, and secure remote access through VPN.",
+        "tools": ["VMware ESXi", "pfSense", "Windows Server", "Ubuntu Server"]
+      },
+      "proxmoxCluster": {
+        "title": "Proxmox Cluster Setup",
+        "description": "Built a high-availability Proxmox cluster with shared storage, live migration capabilities, and automated backup solutions. Implemented monitoring and alerting for proactive maintenance.",
+        "tools": ["Proxmox VE", "Ceph Storage", "Zabbix", "Ansible"]
+      },
+      "monitoringDashboard": {
+        "title": "Infrastructure Monitoring Dashboard",
+        "description": "Developed a comprehensive monitoring solution using Zabbix with custom dashboards, automated alerting, and performance analytics for critical infrastructure components.",
+        "tools": ["Zabbix", "Grafana", "MySQL", "SNMP"]
+      },
+      "securityAudit": {
+        "title": "Network Security Audit",
+        "description": "Conducted thorough security assessment of enterprise network infrastructure, identifying vulnerabilities and implementing hardening measures to improve overall security posture.",
+        "tools": ["Nmap", "Wireshark", "OpenVAS", "Nessus"]
+      }
+    },
+    "viewProject": "View Project",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code"
+  },
+  "certifications": {
+    "title": "Certifications & Training",
+    "items": {
+      "ccnaIntro": {
+        "name": "CCNA: Introduction to Networks",
+        "date": "July 2025",
+        "description": "Acquired foundational knowledge of computer networks, including OSI and TCP/IP models, IPv4 and IPv6 addressing, network topology design, and the use of network equipment like routers and switches."
+      },
+      "ccnaSwitching": {
+        "name": "CCNA: Switching, Routing, and Wireless Essentials",
+        "date": "July 2025",
+        "description": "Gained in-depth understanding of switching technologies, static and dynamic routing, and wireless networks (Wi-Fi). Learned to configure VLANs, STP, DHCP, NAT, and secure network access."
+      },
+      "ccnaEnterprise": {
+        "name": "CCNA: Enterprise Networking, Security, and Automation",
+        "date": "June 2025",
+        "description": "Developed advanced skills in network security (ACL, VPN, device security), enterprise network administration, and network automation via Python and REST APIs."
+      },
+      "ethicalHacker": {
+        "name": "Ethical Hacker",
+        "date": "June 2025",
+        "description": "Introduced to penetration testing techniques, vulnerability analysis, target system reconnaissance, network exploitation, and fundamental principles of offensive cybersecurity."
+      },
+      "networkingBasics": {
+        "name": "Networking Basics",
+        "date": "June 2025",
+        "description": "Gained a general understanding of networks: network protocols, devices, IP addresses, DNS, switches, routers, and data transmission. An excellent introduction before the CCNA program."
+      },
+      "pythonEssentials": {
+        "name": "Python Essentials 1",
+        "date": "June 2025",
+        "description": "Learned the basics of Python programming: variables, conditionals, loops, functions, data structures (lists, dictionaries), and algorithmic concepts. This foundation allows me to automate IT tasks."
+      },
+      "computerHardware": {
+        "name": "Computer Hardware Basics",
+        "date": "May 2025",
+        "description": "Training on internal computer components: motherboard, processor, RAM, hard drive, power supply, and peripherals. Also covered assembly, maintenance, and hardware troubleshooting."
+      },
+      "cybersecurityIntro": {
+        "name": "Introduction to Cybersecurity",
+        "date": "May 2025",
+        "description": "Discovered current threats to computer systems, cybersecurity principles, security policies, password best practices, and the challenges for businesses and individuals."
+      },
+      "aiIntro": {
+        "name": "Introduction to Modern AI",
+        "date": "May 2025",
+        "description": "This certification introduced me to key AI concepts: machine learning, natural language processing, computer vision, AI ethics, and modern uses of artificial intelligence in businesses."
+      }
+    }
+  },
+  "timeline": {
+    "title": "Career Timeline",
+    "items": {
+      "2024": {
+        "title": "Infrastructure Specialist",
+        "description": "Advanced role focusing on enterprise infrastructure design and implementation"
+      },
+      "2023": {
+        "title": "System Administrator",
+        "description": "Managed Windows and Linux servers, implemented monitoring solutions"
+      },
+      "2022": {
+        "title": "Network Technician",
+        "description": "Configured network equipment, troubleshot connectivity issues"
+      },
+      "2021": {
+        "title": "IT Support Specialist",
+        "description": "Provided technical support and maintained IT infrastructure"
+      }
+    }
+  },
+  "blog": {
+    "title": "Technical Blog",
+    "subtitle": "Sharing knowledge and insights about digital infrastructure",
+    "comingSoon": "Blog posts coming soon...",
+    "topics": [
+      "Infrastructure Design Patterns",
+      "Virtualization Best Practices",
+      "Network Security Fundamentals",
+      "Monitoring and Alerting Strategies"
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's discuss your infrastructure needs",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "email": "Email",
+      "location": "Location",
+      "availability": "Availability"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Digital Infrastructure Portfolio. All rights reserved.",
+    "builtWith": "Built with React & Tailwind CSS"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "close": "Close",
+    "open": "Open",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "download": "Download"
+  }
+}
+
+
