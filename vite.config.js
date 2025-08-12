@@ -3,6 +3,13 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
+// vite.config.js
+export default {
+  base: '/AbdelilahBOUROUDA/', // <-- use your GitHub repo name here, with slashes
+  // other config...
+}
+
+
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
